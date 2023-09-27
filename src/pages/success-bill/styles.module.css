@@ -1,0 +1,28 @@
+.text {
+  color: #000;
+  max-width: 250px;
+  width: 90%;
+  font-family: Inter, sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+  margin: 84px 0 165px 43px;
+}
+
+.text span{
+  display: block;
+}
+
+.top {
+  margin-bottom: 12px;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  min-height: calc(100vh - 100vw * 0.38);
+}
+
+.inner {
+  flex-grow: 1;
+}

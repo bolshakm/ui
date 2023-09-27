@@ -1,0 +1,192 @@
+.dish {
+  border-radius: 5px;
+  border: 1px solid #b7b4b44a;
+  background: #FFF;
+  box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.25);
+  padding: 16px 12px 16px 16px;
+  color: #000;
+  font-family: Inter, sans-serif;
+  min-height: 51px;
+  max-height: max-content;
+  height: max-content;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.billItem {
+  border-radius: 5px;
+  border: 1px solid rgba(183, 180, 180, 0.29);
+  background: #ECECEC;
+  box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.25);
+  padding: 9px 12px 9px 19px;
+  color: #000;
+  font-family: Inter, sans-serif;
+  min-height: 51px;
+  max-height: max-content;
+  height: max-content;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.content {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.dish.checked {
+  background: #E5EFEC;
+  filter: drop-shadow(0px 0px 0px rgba(0, 0, 0, 0.25));
+}
+
+.priceWrapper {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.name {
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 4px;
+}
+
+.textContent {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.text {
+  font-size: 14px;
+  font-weight: 300;
+  margin-bottom: 6px;
+  max-width: 80%;
+}
+
+.text .button {
+  font-size: 14px;
+  font-weight: 300;
+  text-decoration-line: underline;
+  padding: 0;
+  margin: 0 0 0 2px;
+  background-color: transparent;
+  border: none;
+  outline: none;
+}
+
+.price {
+  color: #000;
+  font-family: Inter, sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.priceBlock {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+
+.volumeBtn {
+  display: flex;
+  align-items: center;
+  width: max-content;
+  border: none;
+  outline: none;
+  padding: 0;
+  background-color: transparent;
+  gap: 1px;
+}
+
+.icon  {
+  height: max-content;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transform-origin: center;
+  transition: all 0.3s;
+}
+
+.iconReverted {
+  transform: rotate(180deg);
+}
+
+.volumeBtn svg {
+  width: 20px;
+  height: 17px;
+}
+
+.volumeBtn path {
+  fill: #000000a3;
+}
+
+.volumeText, .volumeItem {
+  color: #000000a3;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.volumesList {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+}
+
+.right {
+  display: flex;
+  align-items: flex-end;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 10px;
+  width: max-content;
+}
+
+.rightLarge {
+  height: 100%;
+}
+
+.box {
+  width: 95px;
+  height: 63px;
+  border-radius: 5px;
+  background-color: #eee;
+  overflow: hidden;
+}
+
+.box img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.count {
+  color: rgba(0, 0, 0, 0.61);
+  font-family: Inter, sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  margin-top: 5px;
+}
+
+.side {
+  height: 100%;
+  min-height: 100%;
+  display: flex;
+}
+
+.favourite {
+  border: none;
+  outline: none;
+  padding: 0;
+  margin: 0;
+  background-color: transparent;
+}
+
+.favouriteSelected path {
+  fill: #d63d3d;
+}
