@@ -57,14 +57,14 @@ export const FooterComponent = () => {
                 <FacebookIcon /> <span className={styles.text}>Facebook</span>
               </div>
             </Link>
-            <Link to={cafe?.tripAdvisor || '/'} style={{ color: 'inherit', textDecoration: 'none' }}>
-              <div className={styles.item}>
-                <TripAdvisor /><span className={styles.text}>TripAdvisor</span>
-              </div>
-            </Link>
             <Link to={cafe?.instagram || '/'} style={{ color: 'inherit', textDecoration: 'none' }}>
               <div className={styles.item}>
                 <InstagramIcon /> <span className={styles.text}>Instagram</span>
+              </div>
+            </Link>
+            <Link to={cafe?.tripAdvisor || '/'} style={{ color: 'inherit', textDecoration: 'none' }}>
+              <div className={styles.item}>
+                <TripAdvisor /><span className={styles.text}>TripAdvisor</span>
               </div>
             </Link>
           </div>
@@ -72,8 +72,8 @@ export const FooterComponent = () => {
       </Grid>
     </div>
    
-    {/* <div className={styles.bottom}>
-      {texts['created.by']} <a href='/' target='_blank' className={styles.link}>QRCoddy</a>
-    </div> */}
+    <div className={styles.bottom}>
+      {texts['created.by']} <a href='/' target='_blank' className={styles.link}>Optima</a>
+    </div>
   </div>
 )}
