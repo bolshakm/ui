@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/ui/static/css/main.5e1369db.css",
-    "main.js": "/ui/static/js/main.45c4eb2d.js",
+    "main.css": "/ui/static/css/main.b2a8d58b.css",
+    "main.js": "/ui/static/js/main.2cb12de1.js",
     "static/media/tripadvisor.svg": "/ui/static/media/tripadvisor.08f177af66c46ffd179dd9e0d980fcd8.svg",
     "static/media/favorite.svg": "/ui/static/media/favorite.b6a8cab7b233fa9da6269ff17631fb39.svg",
     "index.html": "/ui/index.html",
@@ -12,11 +12,11 @@
     "static/media/closeBtn.svg": "/ui/static/media/closeBtn.9b9494592eb7e7b72a619cd05b536550.svg",
     "static/media/credit_card.svg": "/ui/static/media/credit_card.68113bfd0b0dd648c19404891f6d9bf0.svg",
     "static/media/expand_more.svg": "/ui/static/media/expand_more.159e280ec27781bd0f984362c4da7721.svg",
-    "main.5e1369db.css.map": "/ui/static/css/main.5e1369db.css.map",
-    "main.45c4eb2d.js.map": "/ui/static/js/main.45c4eb2d.js.map"
+    "main.b2a8d58b.css.map": "/ui/static/css/main.b2a8d58b.css.map",
+    "main.2cb12de1.js.map": "/ui/static/js/main.2cb12de1.js.map"
   },
   "entrypoints": [
-    "static/css/main.5e1369db.css",
-    "static/js/main.45c4eb2d.js"
+    "static/css/main.b2a8d58b.css",
+    "static/js/main.2cb12de1.js"
   ]
 }
