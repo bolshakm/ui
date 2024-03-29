@@ -1,5 +1,5 @@
 import { IDish } from './dish.interface'
-import { ILanguagesMap } from './languages.interface';
+import { ILanguagesLow, ILanguagesMap } from './languages.interface';
 
 export interface ICombinationDish {
   active: boolean;
@@ -22,4 +22,5 @@ export interface ICombination {
   price: number;
   combinationDishes: ICombinationDish[]
   active: boolean;
+  enabled: boolean;
 }

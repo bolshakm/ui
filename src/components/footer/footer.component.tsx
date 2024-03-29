@@ -72,8 +72,8 @@ export const FooterComponent = () => {
       </Grid>
     </div>
    
-    {/* <div className={styles.bottom}>
+    <div className={styles.bottom}>
       {texts['created.by']} <a href='/' target='_blank' className={styles.link}>Optima</a>
-    </div> */}
+    </div>
   </div>
 )}
